@@ -1,4 +1,4 @@
-Weather Prediction
+Bike Demand Prediction
 
 Steps:
 1. pip install flask pandas scikit-learn

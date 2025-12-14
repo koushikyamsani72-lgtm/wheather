@@ -4,8 +4,8 @@ from sklearn.linear_model import LinearRegression
 import pickle
 
 df = pd.read_csv("data.csv")
-X = df[['humidity', 'pressure']]
-y = df["temperature"]
+X = df[['hour', 'temperature']]
+y = df["bikes"]
 
 model = LinearRegression()
 model.fit(X, y)
